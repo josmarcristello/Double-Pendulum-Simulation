@@ -6,8 +6,7 @@ To achieve that, equations of motion are obtained using the Euler-Lagrangian equ
 
 The notebook in this repository is contains the modelling of the equations of motion, and numerical solution (Implementaiton of the numerical methods). All models used and references can be found on the report and on the [Acknowledgements](#Acknowledgements) and [Bibliography](#Bibliography) sections. The repository is fully open-sourced under the [MIT License](https://choosealicense.com/licenses/mit/). This study was originally submitted as a project for the class ENME631 (Numerical Methods) in the [University of Calgary](https://www.ucalgary.ca/) (Calgary, Alberta, Canada).
 
-![plot](./2-figures/1-Numerical Methods Verification/Number of Flips x Initial Angular Positions.png)
-2.1 [**Numerical Methods Verification**](./2-figures/1-Numerical Methods Verification/Number of Flips x Initial Angular Positions.png)
+![**Numerical Methods Verification**](./2-figures/4-Number%20of%20Flips/Number%20of%20Flips%20x%20Initial%20Angular%20Positions.png)
 
 ## Table of Contents
 1. [Installation](#Installation)
@@ -44,7 +43,7 @@ Either:
 
 1.  [**Double_Pendulum_Model.ipynb**](./1-source/Double_Pendulum_Model.ipynb) - The python notebook with all the models, simulation and numerical solution.
 2.  [**Figures Folder**](./2-figures/) - Contains all the images and animations used in the final report. 
-2.1 [**Numerical Methods Verification**](./2-figures/1. Numerical Methods Verification/)
+2.1 [**Numerical Methods Verification**](./2-figures/1-Numerical Methods Verification/)
 2.1 [**Cartesian Motion**](./2-figures/2-Cartesian Motion/)
 3.  [**TCC_PUCMG_Report.pdf**](./3-report/ENME 631 - Double Pendulum Motion Analysis.pdf)
 
