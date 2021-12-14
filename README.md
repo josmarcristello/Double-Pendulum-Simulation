@@ -6,15 +6,6 @@ To achieve that, equations of motion are obtained using the Euler-Lagrangian equ
 
 The notebook in this repository is contains the modelling of the equations of motion, and numerical solution (Implementaiton of the numerical methods). All models used and references can be found on the report and on the [Acknowledgements](#Acknowledgements) and [Bibliography](#Bibliography) sections. The repository is fully open-sourced under the [MIT License](https://choosealicense.com/licenses/mit/). This study was originally submitted as a project for the class ENME631 (Numerical Methods) in the [University of Calgary](https://www.ucalgary.ca/) (Calgary, Alberta, Canada).
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![**Numerical Methods Verification**](./2-figures/4-Number%20of%20Flips/Number%20of%20Flips%20x%20Initial%20Angular%20Positions.png)  |  ![**Numerical Methods Verification**](./2-figures/5-Final%20Angular%20Position%20-%20Full%20Circle%20Spectrum/Color/Colored%20Final%20angular%20position.png)
-
-
-
-
-
-
 ## Table of Contents
 1. [Installation](#Installation)
 2. [Model](#Model)
@@ -47,7 +38,6 @@ Either:
 * It should be noted that the execution time rises exponentially for a large number of points. For example, simulating 1500 initial angular positions for each pendulum bob generates a total of 2,250,000 trajectories, which took approximately 16h of continuous running in the author's machine. A suggestion to improve that is to either parallelize the code or use an implementation such as [Cython](https://cython.org/)
 
 ## File Descriptions
-
 1.  [**Double_Pendulum_Model.ipynb**](./1-source/Double_Pendulum_Model.ipynb) - The python notebook with all the models, simulation and numerical solution.
 2.  [**Figures Folder**](./2-figures/) - Contains all the images and animations used in the final report. 
 2.1 [**Numerical Methods Verification**](./2-figures/1-Numerical Methods Verification/)
@@ -55,17 +45,23 @@ Either:
 3.  [**TCC_PUCMG_Report.pdf**](./3-report/ENME 631 - Double Pendulum Motion Analysis.pdf)
 
 ## Results
-The selected model used Gradient Boosting (XGBoost Library) and had a R² of 0.691 with MSE of 0.125. The notebook had a very extensive data analysis, and contains recommendations for a host that wants to maximize their profit, or a guest that wants to maximize their cost-benefit when renting a place. For the guest example, in Toronto:
+Number of pendulum flips (bob#2) x initial angular positions             |  Number of pendulum flips (bob#2) x initial angular positions
+:-------------------------:|:-------------------------:
+![**abc**](./2-figures/4-Number%20of%20Flips/Number%20of%20Flips%20x%20Initial%20Angular%20Positions.png)  |  ![**abc**](./2-figures/4-Number%20of%20Flips/Number%20of%20Flips%20x%20Initial%20Mechanical%20Energy.png)
+
+Final angular position (bob#2) x initial angular positions             |  Zoomed in section (previous chart)
+:-------------------------:|:-------------------------:
+![**abc**](./2-figures/5-Final%20Angular%20Position%20-%20Full%20Circle%20Spectrum/Color/Colored%20Final%20angular%20position.png)  |  ![**Numerical Methods Verification**](./2-figures/6-Final%20Angular%20Position%20-%20Region/Color/Colored%20Final%20angular%20position%20-%20Region.png)
+
+
 
 ## Acknowledgements
-
 * [NumPy.com](https://numpy.org/), the library used for matrix and arrays operation in this project. This library is open-sourced under the [BSD License](https://choosealicense.com/licenses/0bsd/).
 
 * [Matplotlib](https://matplotlib.org/), the library for data visualization. This library uses [BSD compatible code](https://choosealicense.com/licenses/0bsd/).
  and operates in the LSF [License] (https://docs.python.org/3/license.html).
 
 ## Bibliography
-
 1. Acheson, D. J. (1997). From calculus to chaos: An introduction to dynamics. Oxford University Press.
 2. Stachowiak, T., & Okada, T. (2006). A numerical analysis of chaos in the double pendulum. Chaos, Solitons & Fractals, 29(2), 417–422. https://doi.org/10.1016/j.chaos.2005.08.032
 3. Ohlhoff, A., & Richter, P. H. (2000). Forces in the Double Pendulum. ZAMM, 80(8), 517–534. https://doi.org/10.1002/1521-4001(200008)80:8<517::AID-ZAMM517>3.0.CO;2-1
@@ -81,6 +77,3 @@ The selected model used Gradient Boosting (XGBoost Library) and had a R² of 0.6
 13. J, R. (1983). Runge-kutta method. Numerical Methods.
 14. Levien, R. B., & Tan, S. M. (1998). Double pendulum: An experiment in chaos. American Journal of Physics, 61(11), 1038. https://doi.org/10.1119/1.17335
 15. Chen, Joe. (2008). Chaos from Simplicity: An Introduction to the Double Pendulum.
-
- 
-
