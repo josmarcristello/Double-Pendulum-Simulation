@@ -56,7 +56,7 @@ Number of pendulum flips (bob#2) x initial positions             |  Number of pe
 Final angular position (bob#2) x initial positions             |  Zoomed in section (previous chart)
 :-------------------------:|:-------------------------:
 ![**abc**](./2-figures/5-Final%20Angular%20Position%20-%20Full%20Circle%20Spectrum/Color/Colored%20Final%20angular%20position.png)  |  ![**Numerical Methods Verification**](./2-figures/6-Final%20Angular%20Position%20-%20Region/Color/Colored%20Final%20angular%20position%20-%20Region.png)
-
+*Note:*Click for a much more detailed image
 
 
 ## Acknowledgements
