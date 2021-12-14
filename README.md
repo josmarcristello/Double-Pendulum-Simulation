@@ -43,7 +43,7 @@ Either:
 ## File Descriptions
 
 1.  [**Double_Pendulum_Model.ipynb**](./1-source/Double_Pendulum_Model.ipynb) - The python notebook with all the models, simulation and numerical solution.
-2.  [**Figures Folder**](./2-figures/GEO_process_coordinates.ipynb) - Contains all the images and animations used in the final report. 
+2.  [**Figures Folder**](./2-figures/) - Contains all the images and animations used in the final report. 
 2.1 [**Numerical Methods Verification**](./2-figures/1. Numerical Methods Verification/)
 2.1 [**Cartesian Motion**](./2-figures/2-Cartesian Motion/)
 3.  [**TCC_PUCMG_Report.pdf**](./3-report/ENME 631 - Double Pendulum Motion Analysis.pdf)
