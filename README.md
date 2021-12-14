@@ -6,8 +6,7 @@ To achieve that, equations of motion are obtained using the Euler-Lagrangian equ
 
 The notebook in this repository is contains the modelling of the equations of motion, and numerical solution (Implementaiton of the numerical methods). All models used and references can be found on the report and on the [Acknowledgements](#Acknowledgements) and [Bibliography](#Bibliography) sections. The repository is fully open-sourced under the [MIT License](https://choosealicense.com/licenses/mit/). This study was originally submitted as a project for the class ENME631 (Numerical Methods) in the [University of Calgary](https://www.ucalgary.ca/) (Calgary, Alberta, Canada).
 
-![Alt text](./2-figures/1. Numerical Methods Verification/Number of Flips x Initial Angular Positions.png?raw=true "Title")
-![Alt text](./2-figures/1. Numerical Methods Verification/Number of Flips x Initial Angular Positions.png)
+![plot](./2-figures/1. Numerical Methods Verification/Number of Flips x Initial Angular Positions.png)
 
 
 ## Table of Contents
