@@ -6,7 +6,14 @@ To achieve that, equations of motion are obtained using the Euler-Lagrangian equ
 
 The notebook in this repository is contains the modelling of the equations of motion, and numerical solution (Implementaiton of the numerical methods). All models used and references can be found on the report and on the [Acknowledgements](#Acknowledgements) and [Bibliography](#Bibliography) sections. The repository is fully open-sourced under the [MIT License](https://choosealicense.com/licenses/mit/). This study was originally submitted as a project for the class ENME631 (Numerical Methods) in the [University of Calgary](https://www.ucalgary.ca/) (Calgary, Alberta, Canada).
 
-![**Numerical Methods Verification**](./2-figures/4-Number%20of%20Flips/Number%20of%20Flips%20x%20Initial%20Angular%20Positions.png)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![**Numerical Methods Verification**](./2-figures/4-Number%20of%20Flips/Number%20of%20Flips%20x%20Initial%20Angular%20Positions.png)  |  ![**Numerical Methods Verification**](./2-figures/5-Final%20Angular%20Position%20-%20Full%20Circle%20Spectrum/Color/Colored%20Final%20angular%20position.png)
+
+
+
+
+
 
 ## Table of Contents
 1. [Installation](#Installation)
