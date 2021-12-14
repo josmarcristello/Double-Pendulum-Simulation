@@ -37,7 +37,7 @@ Either:
 * It should be noted that the execution time rises exponentially for a large number of points. For example, simulating 1500 initial angular positions for each pendulum bob generates a total of 2,250,000 trajectories, which took approximately 16h of continuous running in the author's machine. A suggestion to improve that is to either parallelize the code or use an implementation such as [Cython](https://cython.org/)
 
 ## File Descriptions
-1.  [**Double_Pendulum_Model.ipynb**](./1-source/Double_Pendulum_Model.ipynb) - The python notebook with all the models, simulation and numerical solution.
+1.  [**Double_Pendulum_Model.ipynb**](./1-source/Double_Pendulum_Model.ipynb) - The python notebook with all the models, simulation and numerical solution. Note: The notebook is highly recommended, but a python file is also included for compatibility purposes [**Double_Pendulum_Model.ipynb**](./1-source/Double_Pendulum_Model.py).
 2.  [**ENME631 - Numerical Solution to Chaos - Double Pendulum**](./3-report/ENME631%20-%20Numerical%20Solution%20to%20Chaos%20-%20Double%20Pendulum.pdf) - The python notebook with all the models, simulation and numerical solution.
 3.  [**Figures Folder**](./2-figures/) - Contains all the images and animations used in the final report.
 4.  [**Figures: Numerical Methods Verification/**](./2-figures/1-Numerical%20Methods%20Verification/) - Verification of the numerical methods with ODEs with known analytical solutions.
