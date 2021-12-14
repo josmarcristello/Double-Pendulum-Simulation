@@ -38,7 +38,7 @@ Either:
 
 ## File Descriptions
 1.  [**Double_Pendulum_Model.ipynb**](./1-source/Double_Pendulum_Model.ipynb) - The python notebook with all the models, simulation and numerical solution.
-2.  bla
+2.  [**ENME631 - Numerical Solution to Chaos - Double Pendulum**](./3-report/ENME631%20-%20Numerical%20Solution%20to%20Chaos%20-%20Double%20Pendulum.pdf) - The python notebook with all the models, simulation and numerical solution.
 3.  [**Figures Folder**](./2-figures/) - Contains all the images and animations used in the final report.
 4.  [**Figures: Numerical Methods Verification/**](./2-figures/1-Numerical%20Methods%20Verification/) - Verification of the numerical methods with ODEs with known analytical solutions.
 5.  [**Figures: Cartesian Motion/**](./2-figures/2-Cartesian%20Motion/) - Analysis of the cartesian motion for cases 1, 2, and methods RK4 and Euler.
